@@ -5,7 +5,7 @@
         Add duplicate option on calendar events""",
     'author': "Inma Sánchez",
     'website': "https://github.com/EDallas89",
-    'category': 'Uncategorized',
+    'category': 'Extra Tools',
     'version': '0.1',
     'depends': ['calendar'],
     'data': [

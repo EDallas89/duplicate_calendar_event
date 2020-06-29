@@ -23,22 +23,5 @@
       </field>
     </record>
     -->
-    <!--
-    <record id="duplicate_calendar_event_calendar" model="ir.ui.view">
-      <field name="name">duplicate_calendar_event_calendar</field>
-      <field name="model">calendar.event</field>
-      <field name="inherit_id" ref="calendar.view_calendar_event_calendar" />
-      <field name="arch" type="xml">
-        <xpath expr="//field[@name='partner_ids']" position="replace">
-          
-          <field name="partner_ids" write_model="calendar.contacts" write_field="partner_id"/>
-          
-          
-          <field name="tag_names" display="[name]-[tag_names]" />
-          
-        </xpath>
-      </field>
-    </record>
-    -->
   </data>
 </odoo>
